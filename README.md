@@ -10,7 +10,7 @@ mobile_number and amount_to_bill -->
 
 <!-- Solution -->
 
-<!-- The goal of this script is to be able to make asynchronous calls to the billing API within a particular time -->
+<!-- #The goal of this script is to be able to make asynchronous calls to the billing API within a particular time -->
 <!-- If we were to send the request to all 10,000 users, Billing each user is in 1.6 seconds time, we have to wait for a user to be billed without sending the second request. This would take hours and would be very slow -->
 <!-- PHP is naturally not a multi-threaded programming language, It runs on a single thread, so how do we make async calls to the API end point! assuming this API endpoint has the capability to handle multiple requests at the same time -->
 
