@@ -1,0 +1,17 @@
+{
+    "name": "Billing_API",
+    "description": "External billing API",
+    "require": {
+        "illuminate/database": "^5.8"
+    },
+    "autoload": {
+        "classmap": [
+            "app/models",
+            "app/core",
+            "vendor/nesbot/carbon/src"
+        ]
+    },
+    "scripts": {
+        "create-controller": "@php createcontroller.php"
+    }
+}
